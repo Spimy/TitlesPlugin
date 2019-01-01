@@ -1,0 +1,42 @@
+#Version: 1.0
+#Make sure all messages are within inverted comma ['']!
+
+#Player must have spelp.spawn to use the permission spelp.spawnother
+#Player must have spelp.admincmd to use the permissions: spelp.reload, spelp.help,
+#spelp.version & spelp.setafk
+
+#------------------------------------------------------------------------------------
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦----------¦¦¦¦¦¦-¦¦¦¦¦¦¦¦--¦¦¦¦¦¦¦¦-
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦--¦¦¦¦¦¦¦¦-
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦--¦¦¦¦¦¦¦¦-
+#-¦¦¦¦¦¦---------¦¦¦¦¦¦--¦¦¦¦¦¦---¦¦¦¦¦¦---¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦---¦¦¦¦¦¦¦¦¦¦¦¦¦¦---
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦---¦¦¦¦¦¦---¦¦¦¦¦¦--¦¦¦¦¦¦--¦¦¦¦¦¦---¦¦¦¦¦¦¦¦¦¦¦¦¦¦---
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦---¦¦¦¦¦¦---¦¦¦¦¦¦--¦¦¦¦¦¦--¦¦¦¦¦¦-----¦¦¦¦¦¦¦¦¦¦-----
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦¦¦¦¦¦¦¦¦---¦¦¦¦¦¦---¦¦¦¦¦¦--¦¦¦¦¦¦--¦¦¦¦¦¦-------¦¦¦¦¦¦-------
+#---------¦¦¦¦¦¦-¦¦¦¦¦¦-----------¦¦¦¦¦¦---¦¦¦¦¦¦----------¦¦¦¦¦¦-------¦¦¦¦¦¦-------
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦---------¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦----------¦¦¦¦¦¦-------¦¦¦¦¦¦-------
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦---------¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦----------¦¦¦¦¦¦-------¦¦¦¦¦¦-------
+#-¦¦¦¦¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦---------¦¦¦¦¦¦¦¦¦¦-¦¦¦¦¦¦----------¦¦¦¦¦¦-------¦¦¦¦¦¦-------
+#------------------------------------------------------------------------------------
+
+#-= Variables =-
+#{player}: Replaced by the Player's Minecraft username.
+#{target}: Replace by the target's Minecraft username.
+#{prefix}: Replaced by the prefix.
+#{title}: Replaced by the Title created.
+
+#Prefix for all messages.
+Prefix: '&f[&bTitles&f] &7»'
+
+#Messages.
+TitleCreated: '{prefix} &aSuccessfully created&r {title}'
+TitleDeleted: '{prefix} &aSuccessfully deleted&r {title}'
+TitleGiven: '{prefix} {title}&ahas been given to &6{target}&a!'
+TitleRemoved: '{prefix} {title}&ahas been removed from &6{target}&a!'
+
+PlayerNotFound: '{prefix} &cPlayer {target} cannot be found!'
+TitleNotFound: '{prefix} &cTitle &6{title} &cdoes not exist. Create it using /title create!'
+TitleAlreadyExist: '{prefix} &cTitle name &6{title} &calready exists!'
+TitleTooLong: '{prefix} &cTitle should not exceed 16 characters!'
+Reloaded: '{prefix} &6Titles &ahas been reloaded!'
+NoPerm: '{prefix} &cYou do not have the permissions to run this command!'

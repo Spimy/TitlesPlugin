@@ -1,0 +1,26 @@
+name: Titles
+description: Custom Titles (Prefix) Plugin
+author: Spimy
+main: dev.spimy.titles.Main
+version: 1.0
+
+commands:
+  title:
+    description: Main title command
+    usage: /<command>
+    aliases: [titles]
+
+permissions:
+  customtitles.give:
+    description: Give title / prefix to player
+    default: op
+  customtitles.remove:
+    description: Remove title / prefix from player
+    default: op
+  customtitles.create:
+    description: Create a new title / prefix
+    default: op
+  customtitles.delete:
+    description: Delete a title / prefix
+    default: op
+  
